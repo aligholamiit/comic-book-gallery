@@ -11,7 +11,8 @@ using ComicBookGallery.Models;
             {
                 new ComicBook()
             {
-                SeriesTitle = "The Amazing Spider-Man 1",
+                    Id=1,
+                SeriesTitle = "The Amazing Spider-Man",
                 IssueNumber = 700,
                 DescriptionHtml = "<p>Final issue! Witnes the final hours of Doctor Octapus' life and his one, last, great act of revenge! even if Spider-Man survives,, .. will Peter Parker?.</p>",
                 Artists = new Artist[]
@@ -25,8 +26,9 @@ using ComicBookGallery.Models;
             },
                 new ComicBook()
             {
-                SeriesTitle = "The Amazing Spider-Man 2",
-                IssueNumber = 700,
+                    Id=2,
+                SeriesTitle = "The Amazing Spider-Man",
+                IssueNumber = 657,
                 DescriptionHtml = "<p>Final issue! Witnes the final hours of Doctor Octapus' life and his one, last, great act of revenge! even if Spider-Man survives,, .. will Peter Parker?.</p>",
                 Artists = new Artist[]
                     {
@@ -39,8 +41,9 @@ using ComicBookGallery.Models;
             },
                 new ComicBook()
             {
-                SeriesTitle = "The Amazing Spider-Man 3",
-                IssueNumber = 700,
+                    Id=3,
+                SeriesTitle = "Bone",
+                IssueNumber = 50,
                 DescriptionHtml = "<p>Final issue! Witnes the final hours of Doctor Octapus' life and his one, last, great act of revenge! even if Spider-Man survives,, .. will Peter Parker?.</p>",
                 Artists = new Artist[]
                     {
