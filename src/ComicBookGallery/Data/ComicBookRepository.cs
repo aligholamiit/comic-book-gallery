@@ -55,17 +55,21 @@ using ComicBookGallery.Models;
                     }
             }
             };
-        public ComicBook GetComicBook(int id)
+    public ComicBook[] GetComicBooks()
+    {
+        return _comicBooks;
+    }
+    public ComicBook GetComicBook(int id)
         {
             ComicBook comicBookToReturn = null;
-        foreach (var comicBook in _comicBooks)
-        {
-            if (comicBook.Id == id)
+            foreach (var comicBook in _comicBooks)
             {
-                comicBookToReturn = comicBook;
-                break;
+                if (comicBook.Id == id)
+                {
+                    comicBookToReturn = comicBook;
+                    break;
+                }
             }
-        }
-            return comicBookToReturn;
+                return comicBookToReturn;
         }
     }
